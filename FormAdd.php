@@ -15,4 +15,4 @@ if ($title) { //if title is not empty
 }
 
 ?>
-<a href="todoList.php">Back</a>
+<a href="stuList.php">Back</a>
