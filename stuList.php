@@ -42,6 +42,7 @@ while ($rs=mysqli_fetch_assoc($result)) {
 	echo "<td>" , $rs['tos'] , "</td>";
 	echo "<td>" , $rs['status'] . "</td></tr>";
 }
+<a href ="FormAddForm.php">申請助學金</a>
 ?>
 </table>
 </body>
