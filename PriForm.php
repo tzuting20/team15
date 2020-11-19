@@ -15,6 +15,7 @@ require("dbconnect.php");
 <!-- 顯示學生申請表 -->
 <form>
 審核結果：<br>
+<!-- 顯示導師訪視說明、秘書准予補助金額 -->
 <input type="checkbox" value="ture" name="result">決行<br>
 <input type="checkbox" value="false" name="result">否決<br>
 <input type="submit" value="送出" />
