@@ -16,10 +16,10 @@ require("dbconnect.php");
 
       task description: <input name="msg" type="text" id="msg" /> <br>
 	  
-	  Urgent Level: <select  name="urgent" type="select" id="urgent" /> 
-					<option value='一般'>一般</option>
-					<option value='重要'>重要</option>
-					<option value='緊急'>緊急</option>
+	  status: <select  name="status" type="select" id="urgent" /> 
+					<option value='低收入戶'>低收入戶</option>
+					<option value='中低收入戶'>中低收入戶</option>
+					<option value='家庭突發因素'>家庭突發因素</option>
 					</select>
 	  <br>
 
