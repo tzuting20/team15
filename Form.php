@@ -13,7 +13,7 @@ require("dbconnect.php");
 <form method="post" action="Form.php">
 
 申請人（學生）: <input name="name" type="text" id="name" /> <br>
-學號: <input name="stuID" type="text" id="stuID" /> <br>
+學號: <input name="stuID" type="int" id="stuID" /> <br>
 父: <input name="father" type="text" id="father" /> <br>
 母: <input name="mother" type="text" id="mother" /> <br>
 	  
