@@ -17,11 +17,11 @@ require("dbconnect.php");
 父: <input name="father" type="text" id="father" /> <br>
 母: <input name="mother" type="text" id="mother" /> <br>
 	  
-status: <select  name="status" type="select" id="urgent" /> 
-		<option value='低收入戶'>低收入戶</option>
-		<option value='中低收入戶'>中低收入戶</option>
-		<option value='家庭突發因素'>家庭突發因素</option>
-		</select><br>
+申請補助種類: <select  name="status" type="select" id="tos" />
+				<option value='低收入戶'>低收入戶</option>
+				<option value='中低收入戶'>中低收入戶</option>
+				<option value='家庭突發因素'>家庭突發因素</option>
+				</select><br>
 
       <input type="submit" name="Submit" value="送出" />
 	</form>
