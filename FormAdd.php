@@ -1,15 +1,17 @@
 <?php
 require("dbconnect.php");
-$title=mysqli_real_escape_string($conn,$_POST['title']);
-$msg=mysqli_real_escape_string($conn,$_POST['msg']);
-$urgent=mysqli_real_escape_string($conn,$_POST['urgent']);
+$name=mysqli_real_escape_string($conn,$_POST['name']);
+$stuID=mysqli_real_escape_string($conn,$_POST['stuID']);
+$father=mysqli_real_escape_string($conn,$_POST['father']);
+$mother=mysqli_real_escape_string($conn,$_POST['mother']);
+$status=mysqli_real_escape_string($conn,$_POST['status']);
 
 if ($title) { //if title is not empty
-	$sql = "insert into todo (title, content, urgent,status, addTime) values ('$title', '$msg','$urgent',0, NOW());";
+	$sql = "insert into form (name, stuID, father,mother, status) values ('$name', '$father','$mother',0);";
 	mysqli_query($conn, $sql) or die("Insert failed, SQL query error"); //執行SQL
-	echo "Message added";
+	echo "Data added";
 } else {
-	echo "Message title cannot be empty";
+	echo "The Form cannot be empty";
 }
 
 ?>
