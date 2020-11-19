@@ -33,7 +33,7 @@ CREATE TABLE `form` (
   `status` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
   `father` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
   `mother` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
-  `tos` int(11) NOT NULL,
+  `tos` varchar(11) NOT NULL,
   `stuID` int(11) NOT NULL,
   `men_Msg` varchar(32) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
